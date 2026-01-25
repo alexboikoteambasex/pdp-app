@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'This is the base route of the test app!';
+    return 'This text was added by new commit to create a review app.';
   }
 }
